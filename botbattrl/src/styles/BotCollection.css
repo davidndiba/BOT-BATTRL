@@ -1,0 +1,22 @@
+.bot-container {
+    background-color: blue;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+/* BotCollection.css */
+
+.bot-container {
+    background-color: blue;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .bot-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+    

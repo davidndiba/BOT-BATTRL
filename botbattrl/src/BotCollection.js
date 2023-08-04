@@ -1,8 +1,10 @@
 import React from "react";
 import BotCollectionCard from "./BotCollectionCard";
+import "./styles/BotCollection.css";
 
 function BotCollection({ bots, enlistBot }) {
   return (
+    <container>
     <div className="bot-container">
       <div className="bot-list">
         {bots.map((bot) => (
@@ -20,6 +22,7 @@ function BotCollection({ bots, enlistBot }) {
         ))}
       </div>
     </div>
+    </container>
   );
 }
 
