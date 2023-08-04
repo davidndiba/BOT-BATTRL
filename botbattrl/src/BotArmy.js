@@ -2,10 +2,9 @@ import React from 'react';
 import YourBotArmyCard from './BotArmyCard';
 
 function BotArmy({ enlistedBots, releaseBot,dischargeBot }) {
-    // Renders the list of enlisted bots as BotArmyCards
     return (
     <div>
-      <div className="bot-list" style={{ background: "#66FF00" }}>
+      <div className="bot-list" style={{ background: "#a9a9a9" }}>
         {enlistedBots.map((bot) => {
           return (
             <YourBotArmyCard
